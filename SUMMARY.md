@@ -90,6 +90,6 @@
   * [9.6. 用户默认头像](di-jiu-7ae0-za-xiang/96-yong-hu-mo-ren-tou-xiang.md)
   * [9.7. 小结](di-jiu-7ae0-za-xiang/97-xiao-jie.md)
 * [第十章. 附录](di-shi-7ae0-fu-lu.md)
-  * 10.1. 下一步的学习建议
-  * 10.2. 作品分享和学习感悟
+  * [10.1. 下一步的学习建议](di-shi-7ae0-fu-lu/101-xia-yi-bu-de-xue-xi-jian-yi.md)
+  * [10.2. 作品分享和学习感悟](di-shi-7ae0-fu-lu/102-zuo-pin-fen-xiang-he-xue-xi-gan-wu.md)
 

@@ -78,7 +78,7 @@
   * [8.4. 管理后台 - 用户](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai/84-guan-li-hou-tai-yong-hu.md)
   * [8.5. 管理后台 - 角色权限](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai/85-guan-li-hou-tai-jiao-se-quan-xian.md)
   * [8.6. 管理后台 - 内容](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai/86-guan-li-hou-tai-nei-rong.md)
-  * 8.7. 管理后台 - 站点配置
+  * [8.7. 管理后台 - 站点配置](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai/87-guan-li-hou-tai-zhan-dian-pei-zhi.md)
   * 8.8. 后台访问权限
   * 8.9. 小结
 * [第九章. 杂项](di-jiu-7ae0-za-xiang.md)

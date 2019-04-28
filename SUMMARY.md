@@ -15,7 +15,7 @@
   * [2.1. 开发环境](di-er-7ae0-wu-tai-bu-zhi/21-kai-fa-huan-jing.md)
   * [2.2. 产品分解](di-er-7ae0-wu-tai-bu-zhi/22-chan-pin-fen-jie.md)
   * [2.3. 创建应用](di-er-7ae0-wu-tai-bu-zhi/23-chuang-jian-ying-yong.md)
-  * 2.4. 配置信息
+  * [2.4. 配置信息](di-er-7ae0-wu-tai-bu-zhi/24-pei-zhi-xin-xi.md)
   * 2.5. 辅助函数
   * 2.6. 基础布局
   * 2.7. 浏览器缓存问题

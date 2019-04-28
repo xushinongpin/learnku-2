@@ -20,7 +20,7 @@
   * [2.6. 基础布局](di-er-7ae0-wu-tai-bu-zhi/26-ji-chu-bu-ju.md)
   * [2.7. 浏览器缓存问题](di-er-7ae0-wu-tai-bu-zhi/27-liu-lan-qi-huan-cun-wen-ti.md)
   * [2.8. 字体图标](di-er-7ae0-wu-tai-bu-zhi/28-zi-ti-tu-biao.md)
-  * 2.9. 小结
+  * [2.9. 小结](di-er-7ae0-wu-tai-bu-zhi/29-xiao-jie.md)
 * [第三章. 注册登录](di-san-7ae0-zhu-ce-deng-lu.md)
   * 3.1. 用户认证脚手架
   * 3.2. 用户注册

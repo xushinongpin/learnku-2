@@ -23,7 +23,7 @@
   * [2.9. 小结](di-er-7ae0-wu-tai-bu-zhi/29-xiao-jie.md)
 * [第三章. 注册登录](di-san-7ae0-zhu-ce-deng-lu.md)
   * [3.1. 用户认证脚手架](di-san-7ae0-zhu-ce-deng-lu/31-yong-hu-ren-zheng-jiao-shou-jia.md)
-  * 3.2. 用户注册
+  * [3.2. 用户注册](di-san-7ae0-zhu-ce-deng-lu/32-yong-hu-zhu-ce.md)
   * 3.3. 注册验证码
   * 3.4. 数据库视图管理工具
   * 3.5. 邮箱认证

@@ -13,7 +13,7 @@
   * [1.9. 常见问题](chapter1/19-chang-jian-wen-ti.md)
 * [第二章. 舞台布置](di-er-7ae0-wu-tai-bu-zhi.md)
   * [2.1. 开发环境](di-er-7ae0-wu-tai-bu-zhi/21-kai-fa-huan-jing.md)
-  * 2.2. 产品分解
+  * [2.2. 产品分解](di-er-7ae0-wu-tai-bu-zhi/22-chan-pin-fen-jie.md)
   * 2.3. 创建应用
   * 2.4. 配置信息
   * 2.5. 辅助函数

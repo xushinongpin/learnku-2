@@ -84,7 +84,7 @@
 * [第九章. 杂项](di-jiu-7ae0-za-xiang.md)
   * [9.1. 边栏活跃用户](di-jiu-7ae0-za-xiang/91-bian-lan-huo-yue-yong-hu.md)
   * [9.2. 边栏资源推荐](di-jiu-7ae0-za-xiang/92-bian-lan-zi-yuan-tui-jian.md)
-  * 9.3. 防止数据损坏
+  * [9.3. 防止数据损坏](di-jiu-7ae0-za-xiang/93-fang-zhi-shu-ju-sun-huai.md)
   * 9.4. 用户最后登录时间
   * 9.5. 站点首页
   * 9.6. 用户默认头像

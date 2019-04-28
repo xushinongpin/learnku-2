@@ -19,7 +19,7 @@
 假设用户 A 在 7 天内发了 10 篇帖子，发了 5 条评论，则其得分为
 
 ```
-10 * 4 + 5 * 1 = 45 
+10 * 4 + 5 * 1 = 45
 ```
 
 ## 2. 编写逻辑代码
@@ -286,191 +286,32 @@ class TopicsController extends Controller
 _resources/views/topics/\_sidebar.blade.php_
 
 ```
-<
-div 
-class
-=
-"card "
->
-<
-div 
-class
-=
-"card-body"
->
-<
-a href
-=
-"{{ route('topics.create') }}"
-class
-=
-"btn btn-success btn-block"
- aria
--
-label
-=
-"Left Align"
->
-<
-i 
-class
-=
-"fas fa-pencil-alt mr-2"
->
-<
-/
-i
->
- 新建帖子
-    
-<
-/
-a
->
-<
-/
-div
->
-<
-/
-div
->
+<div class="card ">
+  <div class="card-body">
+    <a href="{{ route('topics.create') }}" class="btn btn-success btn-block" aria-label="Left Align">
+      <i class="fas fa-pencil-alt mr-2"></i> 新建帖子
+    </a>
+  </div>
+</div>
 
-
-@
-if
-(
-count
-(
-$active_users
-)
-)
-<
-div 
-class
-=
-"card mt-4"
->
-<
-div 
-class
-=
-"card-body active-users pt-2"
->
-<
-div 
-class
-=
-"text-center mt-1 mb-0 text-muted"
->
-活跃用户
-<
-/
-div
->
-<
-hr 
-class
-=
-"mt-2"
->
-
-      @
-foreach
-(
-$active_users
-as
-$active_user
-)
-<
-a 
-class
-=
-"media mt-2"
- href
-=
-"{{ route('users.show', 
-$active_user
--
->
-id
-) }}"
->
-<
-div 
-class
-=
-"media-left media-middle mr-2 ml-1"
->
-<
-img src
-=
-"{{ 
-$active_user
--
->
-avatar
- }}"
- width
-=
-"24px"
- height
-=
-"24px"
-class
-=
-"media-object"
->
-<
-/
-div
->
-<
-div 
-class
-=
-"media-body"
->
-<
-small 
-class
-=
-"media-heading text-secondary"
->
-{
-{
-$active_user
--
->
-name
-}
-}
-<
-/
-small
->
-<
-/
-div
->
-<
-/
-a
->
-
-      @
-endforeach
-<
-/
-div
->
-<
-/
-div
->
-
-@
-endif
+@if (count($active_users))
+  <div class="card mt-4">
+    <div class="card-body active-users pt-2">
+      <div class="text-center mt-1 mb-0 text-muted">活跃用户</div>
+      <hr class="mt-2">
+      @foreach ($active_users as $active_user)
+        <a class="media mt-2" href="{{ route('users.show', $active_user->id) }}">
+          <div class="media-left media-middle mr-2 ml-1">
+            <img src="{{ $active_user->avatar }}" width="24px" height="24px" class="media-object">
+          </div>
+          <div class="media-body">
+            <small class="media-heading text-secondary">{{ $active_user->name }}</small>
+          </div>
+        </a>
+      @endforeach
+    </div>
+  </div>
+@endif
 ```
 
 刷新页面即可看到我们的活跃用户区块：
@@ -486,48 +327,13 @@ Laravel 命令调度器允许你在 Laravel 中对命令调度进行清晰流畅
 使用调度器时，我们需要修改系统的 Cron 计划任务配置信息，运行以下命令：
 
 ```
-$ export 
-EDITOR
-=
-vi 
-&
-&
- crontab 
--
-e
+$ export EDITOR=vi && crontab -e
 ```
 
 复制下面这一行：
 
 ```
-*
-*
-*
-*
-*
- php 
-/
-home
-/
-vagrant
-/
-Code
-/
-larabbs
-/
-artisan schedule
-:
-run 
->
->
-/
-dev
-/
-null
-2
->
-&
-1
+* * * * * php /home/vagrant/Code/larabbs/artisan schedule:run >> /dev/null 2>&1
 ```
 
 此时进入 VI 编辑器界面：
@@ -551,51 +357,26 @@ null
 _app/Console/Kernel.php_
 
 ```
-<
-?php
+<?php
 .
 .
 .
-class
-Kernel
-extends
-ConsoleKernel
+class Kernel extends ConsoleKernel
 {
-.
-.
-.
-protected
-function
-schedule
-(
-Schedule 
-$schedule
-)
-{
-// $schedule-
->
-command('inspire')
-//          -
->
-hourly();
-// 一小时执行一次『活跃用户』数据生成的命令
-$schedule
--
->
-command
-(
-'larabbs:calculate-active-user'
-)
--
->
-hourly
-(
-)
-;
-}
-.
-.
-.
+    .
+    .
+    .
+    protected function schedule(Schedule $schedule)
+    {
+        // $schedule->command('inspire')
+        //          ->hourly();
+
+        // 一小时执行一次『活跃用户』数据生成的命令
+        $schedule->command('larabbs:calculate-active-user')->hourly();
+    }
+    .
+    .
+    .
 }
 ```
 
@@ -604,9 +385,7 @@ hourly
 清空我们的缓存：
 
 ```
-$ php artisan cache
-:
-clear
+$ php artisan cache:clear
 ```
 
 调出 Laravel 开发者工具类查看页面 SQL 请求数，可以看到没有缓存时，页面需要请求 18 条 SQL ，有了缓存只需要 5 条：
@@ -620,98 +399,26 @@ clear
 _app/Http/Controllers/CategoriesController.php_
 
 ```
-<
-?php
+<?php
 .
 .
 .
-use
-App
-\
-Models
-\
-User
-;
-class
-CategoriesController
-extends
-Controller
+use App\Models\User;
+
+class CategoriesController extends Controller
 {
-public
-function
-show
-(
-Category 
-$category
-,
- Request 
-$request
-,
- Topic 
-$topic
-,
- User 
-$user
-)
-{
-// 读取分类 ID 关联的话题，并按每 20 条分页
-$topics
-=
-$topic
--
->
-withOrder
-(
-$request
--
->
-order
-)
--
->
-where
-(
-'category_id'
-,
-$category
--
->
-id
-)
--
->
-paginate
-(
-20
-)
-;
-// 活跃用户列表
-$active_users
-=
-$user
--
->
-getActiveUsers
-(
-)
-;
-// 传参变量话题和分类到模板中
-return
-view
-(
-'topics.index'
-,
-compact
-(
-'topics'
-,
-'category'
-,
-'active_users'
-)
-)
-;
-}
+    public function show(Category $category, Request $request, Topic $topic, User $user)
+    {
+        // 读取分类 ID 关联的话题，并按每 20 条分页
+        $topics = $topic->withOrder($request->order)
+                        ->where('category_id', $category->id)
+                        ->paginate(20);
+        // 活跃用户列表
+        $active_users = $user->getActiveUsers();
+
+        // 传参变量话题和分类到模板中
+        return view('topics.index', compact('topics', 'category', 'active_users'));
+    }
 }
 ```
 
@@ -724,14 +431,8 @@ compact
 下面把代码纳入到版本管理：
 
 ```
-$ git add 
--
-A
-
-$ git commit 
--
-m 
-"活跃用户"
+$ git add -A
+$ git commit -m "活跃用户"
 ```
 
 

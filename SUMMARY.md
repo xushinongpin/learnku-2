@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [ 第一章. 基础信息](chapter1.md)
   * [1.1. 序言](chapter1/11-xu-yan.md)
-  * 1.2. 关于作者
+  * [1.2. 关于作者](chapter1/12-guan-yu-zuo-zhe.md)
   * 1.3. Laravel 与 PHP
   * 1.4. 如何正确阅读本书
   * 1.5. 写作约定

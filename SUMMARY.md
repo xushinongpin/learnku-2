@@ -12,7 +12,7 @@
   * [1.8. 遇到问题怎么办](chapter1/18-yu-dao-wen-ti-zen-yao-ban.md)
   * [1.9. 常见问题](chapter1/19-chang-jian-wen-ti.md)
 * [第二章. 舞台布置](di-er-7ae0-wu-tai-bu-zhi.md)
-  * 2.1. 开发环境
+  * [2.1. 开发环境](di-er-7ae0-wu-tai-bu-zhi/21-kai-fa-huan-jing.md)
   * 2.2. 产品分解
   * 2.3. 创建应用
   * 2.4. 配置信息

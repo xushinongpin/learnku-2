@@ -64,7 +64,7 @@
   * [6.10. 小结](di-liu-7ae0-tie-zi-de-crud/610-xiao-jie.md)
 * [第七章. 帖子回复](di-qi-7ae0-tie-zi-hui-fu.md)
   * [7.1. 回复数据](di-qi-7ae0-tie-zi-hui-fu/71-hui-fu-shu-ju.md)
-  * 7.2. 回复列表
+  * [7.2. 回复列表](di-qi-7ae0-tie-zi-hui-fu/72-hui-fu-lie-biao.md)
   * 7.3. 发表回复
   * 7.4. 消息通知
   * 7.5. 通知列表

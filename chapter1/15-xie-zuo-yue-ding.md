@@ -40,15 +40,7 @@ I am in Host Machine!
 但在本书中，文件名路径参照的是项目的根目录，显示如下：
 
 ```
-app
-/
-Http
-/
-Controllers
-/
-UsersController
-.
-php
+app/Http/Controllers/UsersController.php
 ```
 
 这样就能保证每个人看到的路径名称都一致了。
@@ -58,50 +50,20 @@ php
 最后，为了保持文章的篇幅简洁，我会将一些不必要的代码使用竖排的`.`来代替，你在复制本文代码块的时候，切记不要将`.`也一同复制进去。演示代码如下：
 
 ```
-<
-?php
-namespace
-App
-\
-Http
-\
-Controllers
-;
+<?php
+
+namespace App\Http\Controllers;
 .
 .
 .
-class
-UsersController
-extends
-Controller
+class UsersController extends Controller
 {
-public
-function
-index
-(
-)
-{
-$users
-=
-User
-::
-all
-(
-)
-;
-return
-view
-(
-'users.index'
-,
-compact
-(
-'users'
-)
-)
-;
-}
-}
+    public function index()
+    {
+        $users = User::all();
+        return view('users.index', compact('users'));
+    }
+}   
 ```
 
 ## 排版规范

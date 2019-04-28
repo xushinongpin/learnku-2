@@ -7,7 +7,7 @@
   * [1.3. Laravel 与 PHP](chapter1/13-laravel-yu-php.md)
   * [1.4. 如何正确阅读本书](chapter1/14-ru-he-zheng-que-yue-du-ben-shu.md)
   * [1.5. 写作约定](chapter1/15-xie-zuo-yue-ding.md)
-  * 1.6. 发行说明
+  * [1.6. 发行说明](chapter1/16-fa-xing-shuo-ming.md)
   * 1.7. 本书源码
   * 1.8. 遇到问题怎么办
   * 1.9. 常见问题

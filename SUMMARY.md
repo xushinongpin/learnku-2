@@ -42,7 +42,7 @@
   * [4.9. 小结](di-si-7ae0-yong-hu-xiang-guan/49-xiao-jie.md)
 * [第五章. 帖子列表](di-wu-7ae0-tie-zi-lie-biao.md)
   * [5.1. 帖子分类](di-wu-7ae0-tie-zi-lie-biao/51-tie-zi-fen-lei.md)
-  * 5.2. 代码生成器
+  * [5.2. 代码生成器](di-wu-7ae0-tie-zi-lie-biao/52-dai-ma-sheng-cheng-qi.md)
   * 5.3. 生成话题骨架
   * 5.4. 假数据填充
   * 5.5. 话题列表页面

@@ -82,7 +82,7 @@
   * [8.8. 后台访问权限](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai/88-hou-tai-fang-wen-quan-xian.md)
   * [8.9. 小结](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai/89-xiao-jie.md)
 * [第九章. 杂项](di-jiu-7ae0-za-xiang.md)
-  * 9.1. 边栏活跃用户
+  * [9.1. 边栏活跃用户](di-jiu-7ae0-za-xiang/91-bian-lan-huo-yue-yong-hu.md)
   * 9.2. 边栏资源推荐
   * 9.3. 防止数据损坏
   * 9.4. 用户最后登录时间

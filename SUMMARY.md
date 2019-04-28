@@ -63,7 +63,7 @@
   * [6.9. 使用队列](di-liu-7ae0-tie-zi-de-crud/69-shi-yong-dui-lie.md)
   * [6.10. 小结](di-liu-7ae0-tie-zi-de-crud/610-xiao-jie.md)
 * [第七章. 帖子回复](di-qi-7ae0-tie-zi-hui-fu.md)
-  * 7.1. 回复数据
+  * [7.1. 回复数据](di-qi-7ae0-tie-zi-hui-fu/71-hui-fu-shu-ju.md)
   * 7.2. 回复列表
   * 7.3. 发表回复
   * 7.4. 消息通知

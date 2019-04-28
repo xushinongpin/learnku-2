@@ -16,27 +16,15 @@ Hello Laravel!
 以下命令行运行在虚拟机里：
 
 ```
-$ 
-echo
-"I am in VM!"
-
-I am 
-in
- VM
-!
+$ echo "I am in VM!"
+I am in VM!
 ```
 
 以下命令行运行在**主机**上：
 
 ```
->
-echo
-"I am in Host Machine!"
-
-I am 
-in
- Host Machine
-!
+> echo "I am in Host Machine!"
+I am in Host Machine!
 ```
 
 ## 相对文件路径
@@ -46,24 +34,7 @@ in
 例如在我电脑中`UsersController.php`文件的完整路径为：
 
 ```
-/
-Users
-/
-summer
-/
-Code
-/
-weibo
-/
-app
-/
-Http
-/
-Controllers
-/
-UsersController
-.
-php
+/Users/summer/Code/weibo/app/Http/Controllers/UsersController.php
 ```
 
 但在本书中，文件名路径参照的是项目的根目录，显示如下：

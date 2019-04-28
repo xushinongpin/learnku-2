@@ -68,7 +68,7 @@
   * [7.3. 发表回复](di-qi-7ae0-tie-zi-hui-fu/73-fa-biao-hui-fu.md)
   * [7.4. 消息通知](di-qi-7ae0-tie-zi-hui-fu/74-xiao-xi-tong-zhi.md)
   * [7.5. 通知列表](di-qi-7ae0-tie-zi-hui-fu/75-tong-zhi-lie-biao.md)
-  * 7.6. 邮件通知
+  * [7.6. 邮件通知](di-qi-7ae0-tie-zi-hui-fu/76-you-jian-tong-zhi.md)
   * 7.7. 删除回复
   * 7.8. 小结
 * [第八章. 角色权限和管理后台](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai.md)

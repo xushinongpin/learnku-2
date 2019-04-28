@@ -17,7 +17,7 @@
   * [2.3. 创建应用](di-er-7ae0-wu-tai-bu-zhi/23-chuang-jian-ying-yong.md)
   * [2.4. 配置信息](di-er-7ae0-wu-tai-bu-zhi/24-pei-zhi-xin-xi.md)
   * [2.5. 辅助函数](di-er-7ae0-wu-tai-bu-zhi/25-fu-zhu-han-shu.md)
-  * 2.6. 基础布局
+  * [2.6. 基础布局](di-er-7ae0-wu-tai-bu-zhi/26-ji-chu-bu-ju.md)
   * 2.7. 浏览器缓存问题
   * 2.8. 字体图标
   * 2.9. 小结

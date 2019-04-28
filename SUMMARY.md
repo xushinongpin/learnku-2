@@ -58,7 +58,7 @@
   * [6.4. 显示帖子](di-liu-7ae0-tie-zi-de-crud/64-xian-shi-tie-zi.md)
   * [6.5. XSS 安全漏洞](di-liu-7ae0-tie-zi-de-crud/65-xss-an-quan-lou-dong.md)
   * [6.6. 编辑帖子](di-liu-7ae0-tie-zi-de-crud/66-bian-ji-tie-zi.md)
-  * 6.7. 删除帖子
+  * [6.7. 删除帖子](di-liu-7ae0-tie-zi-de-crud/67-shan-chu-tie-zi.md)
   * 6.8. SEO 友好的 URL
   * 6.9. 使用队列
   * 6.10. 小结

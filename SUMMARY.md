@@ -39,7 +39,7 @@
   * [4.6. 限制头像分辨率](di-si-7ae0-yong-hu-xiang-guan/46-xian-zhi-tou-xiang-fen-bian-lv.md)
   * [4.7. 裁剪头像](di-si-7ae0-yong-hu-xiang-guan/47-cai-jian-tou-xiang.md)
   * [4.8. 授权访问](di-si-7ae0-yong-hu-xiang-guan/48-shou-quan-fang-wen.md)
-  * 4.9. 小结
+  * [4.9. 小结](di-si-7ae0-yong-hu-xiang-guan/49-xiao-jie.md)
 * [第五章. 帖子列表](di-wu-7ae0-tie-zi-lie-biao.md)
   * 5.1. 帖子分类
   * 5.2. 代码生成器

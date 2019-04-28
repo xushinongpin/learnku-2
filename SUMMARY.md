@@ -70,7 +70,7 @@
   * [7.5. 通知列表](di-qi-7ae0-tie-zi-hui-fu/75-tong-zhi-lie-biao.md)
   * [7.6. 邮件通知](di-qi-7ae0-tie-zi-hui-fu/76-you-jian-tong-zhi.md)
   * [7.7. 删除回复](di-qi-7ae0-tie-zi-hui-fu/77-shan-chu-hui-fu.md)
-  * 7.8. 小结
+  * [7.8. 小结](di-qi-7ae0-tie-zi-hui-fu/78-xiao-jie.md)
 * [第八章. 角色权限和管理后台](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai.md)
   * 8.1. 多角色用户权限
   * 8.2. 站点权限部署

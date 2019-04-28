@@ -33,7 +33,7 @@
 * [第四章. 用户相关](di-si-7ae0-yong-hu-xiang-guan.md)
   * [4.1. 个人页面](di-si-7ae0-yong-hu-xiang-guan/41-ge-ren-ye-mian.md)
   * [4.2. 编辑个人资料](di-si-7ae0-yong-hu-xiang-guan/42-bian-ji-ge-ren-zi-liao.md)
-  * 4.3. 显示个人资料
+  * [4.3. 显示个人资料](di-si-7ae0-yong-hu-xiang-guan/43-xian-shi-ge-ren-zi-liao.md)
   * 4.4. 上传头像
   * 4.5. 显示头像
   * 4.6. 限制头像分辨率

@@ -10,7 +10,7 @@
   * [1.6. 发行说明](chapter1/16-fa-xing-shuo-ming.md)
   * [1.7. 本书源码](chapter1/17-ben-shu-yuan-ma.md)
   * [1.8. 遇到问题怎么办](chapter1/18-yu-dao-wen-ti-zen-yao-ban.md)
-  * 1.9. 常见问题
+  * [1.9. 常见问题](chapter1/19-chang-jian-wen-ti.md)
 * [第二章. 舞台布置](di-er-7ae0-wu-tai-bu-zhi.md)
   * 2.1. 开发环境
   * 2.2. 产品分解

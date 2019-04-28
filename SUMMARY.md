@@ -72,7 +72,7 @@
   * [7.7. 删除回复](di-qi-7ae0-tie-zi-hui-fu/77-shan-chu-hui-fu.md)
   * [7.8. 小结](di-qi-7ae0-tie-zi-hui-fu/78-xiao-jie.md)
 * [第八章. 角色权限和管理后台](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai.md)
-  * 8.1. 多角色用户权限
+  * [8.1. 多角色用户权限](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai/81-duo-jiao-se-yong-hu-quan-xian.md)
   * 8.2. 站点权限部署
   * 8.3. 管理后台 - 初始化
   * 8.4. 管理后台 - 用户

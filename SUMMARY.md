@@ -55,7 +55,7 @@
   * [6.1. 新建话题](di-liu-7ae0-tie-zi-de-crud/61-xin-jian-hua-ti.md)
   * [6.2. 编辑器优化](di-liu-7ae0-tie-zi-de-crud/62-bian-ji-qi-you-hua.md)
   * [6.3. 上传图片](di-liu-7ae0-tie-zi-de-crud/63-shang-chuan-tu-pian.md)
-  * 6.4. 显示帖子
+  * [6.4. 显示帖子](di-liu-7ae0-tie-zi-de-crud/64-xian-shi-tie-zi.md)
   * 6.5. XSS 安全漏洞
   * 6.6. 编辑帖子
   * 6.7. 删除帖子

@@ -87,7 +87,7 @@
   * [9.3. 防止数据损坏](di-jiu-7ae0-za-xiang/93-fang-zhi-shu-ju-sun-huai.md)
   * [9.4. 用户最后登录时间](di-jiu-7ae0-za-xiang/94-yong-hu-zui-hou-deng-lu-shi-jian.md)
   * [9.5. 站点首页](di-jiu-7ae0-za-xiang/95-zhan-dian-shou-ye.md)
-  * 9.6. 用户默认头像
+  * [9.6. 用户默认头像](di-jiu-7ae0-za-xiang/96-yong-hu-mo-ren-tou-xiang.md)
   * 9.7. 小结
 * [第十章. 附录](di-shi-7ae0-fu-lu.md)
   * 10.1. 下一步的学习建议

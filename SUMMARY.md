@@ -37,7 +37,7 @@
   * [4.4. 上传头像](di-si-7ae0-yong-hu-xiang-guan/44-shang-chuan-tou-xiang.md)
   * [4.5. 显示头像](di-si-7ae0-yong-hu-xiang-guan/45-xian-shi-tou-xiang.md)
   * [4.6. 限制头像分辨率](di-si-7ae0-yong-hu-xiang-guan/46-xian-zhi-tou-xiang-fen-bian-lv.md)
-  * 4.7. 裁剪头像
+  * [4.7. 裁剪头像](di-si-7ae0-yong-hu-xiang-guan/47-cai-jian-tou-xiang.md)
   * 4.8. 授权访问
   * 4.9. 小结
 * [第五章. 帖子列表](di-wu-7ae0-tie-zi-lie-biao.md)

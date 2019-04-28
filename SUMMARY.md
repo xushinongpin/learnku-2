@@ -28,7 +28,7 @@
   * [3.4. 数据库视图管理工具](di-san-7ae0-zhu-ce-deng-lu/34-shu-ju-ku-shi-tu-guan-li-gong-ju.md)
   * [3.5. 邮箱认证](di-san-7ae0-zhu-ce-deng-lu/35-you-xiang-ren-zheng.md)
   * [3.6. 认证后的提示](di-san-7ae0-zhu-ce-deng-lu/36-ren-zheng-hou-de-ti-shi.md)
-  * 3.7. 密码重置
+  * [3.7. 密码重置](di-san-7ae0-zhu-ce-deng-lu/37-mi-ma-zhong-zhi.md)
   * 3.8. 小结
 * [第四章. 用户相关](di-si-7ae0-yong-hu-xiang-guan.md)
 

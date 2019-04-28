@@ -25,7 +25,7 @@
   * [3.1. 用户认证脚手架](di-san-7ae0-zhu-ce-deng-lu/31-yong-hu-ren-zheng-jiao-shou-jia.md)
   * [3.2. 用户注册](di-san-7ae0-zhu-ce-deng-lu/32-yong-hu-zhu-ce.md)
   * [3.3. 注册验证码](di-san-7ae0-zhu-ce-deng-lu/33-zhu-ce-yan-zheng-ma.md)
-  * 3.4. 数据库视图管理工具
+  * [3.4. 数据库视图管理工具](di-san-7ae0-zhu-ce-deng-lu/34-shu-ju-ku-shi-tu-guan-li-gong-ju.md)
   * 3.5. 邮箱认证
   * 3.6. 认证后的提示
   * 3.7. 密码重置

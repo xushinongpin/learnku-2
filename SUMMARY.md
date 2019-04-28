@@ -52,7 +52,7 @@
   * [5.9. 用户发布的话题](di-wu-7ae0-tie-zi-lie-biao/59-yong-hu-fa-bu-de-hua-ti.md)
   * [5.10. 小结](di-wu-7ae0-tie-zi-lie-biao/510-xiao-jie.md)
 * [第六章. 帖子的 CRUD](di-liu-7ae0-tie-zi-de-crud.md)
-  * 6.1. 新建话题
+  * [6.1. 新建话题](di-liu-7ae0-tie-zi-de-crud/61-xin-jian-hua-ti.md)
   * 6.2. 编辑器优化
   * 6.3. 上传图片
   * 6.4. 显示帖子

@@ -74,7 +74,7 @@
 * [第八章. 角色权限和管理后台](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai.md)
   * [8.1. 多角色用户权限](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai/81-duo-jiao-se-yong-hu-quan-xian.md)
   * [8.2. 站点权限部署](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai/82-zhan-dian-quan-xian-bu-shu.md)
-  * 8.3. 管理后台 - 初始化
+  * [8.3. 管理后台 - 初始化](di-ba-7ae0-jiao-se-quan-xian-he-guan-li-hou-tai/83-guan-li-hou-tai-chu-shi-hua.md)
   * 8.4. 管理后台 - 用户
   * 8.5. 管理后台 - 角色权限
   * 8.6. 管理后台 - 内容

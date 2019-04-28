@@ -49,7 +49,7 @@
   * [5.6. 性能优化](di-wu-7ae0-tie-zi-lie-biao/56-xing-neng-you-hua.md)
   * [5.7. 分类下的话题列表](di-wu-7ae0-tie-zi-lie-biao/57-fen-lei-xia-de-hua-ti-lie-biao.md)
   * [5.8. 话题列表排序](di-wu-7ae0-tie-zi-lie-biao/58-hua-ti-lie-biao-pai-xu.md)
-  * 5.9. 用户发布的话题
+  * [5.9. 用户发布的话题](di-wu-7ae0-tie-zi-lie-biao/59-yong-hu-fa-bu-de-hua-ti.md)
   * 5.10. 小结
 * [第六章. 帖子的 CRUD](di-liu-7ae0-tie-zi-de-crud.md)
   * 6.1. 新建话题

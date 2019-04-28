@@ -31,7 +31,7 @@
   * [3.7. 密码重置](di-san-7ae0-zhu-ce-deng-lu/37-mi-ma-zhong-zhi.md)
   * [3.8. 小结](di-san-7ae0-zhu-ce-deng-lu/38-xiao-jie.md)
 * [第四章. 用户相关](di-si-7ae0-yong-hu-xiang-guan.md)
-  * 4.1. 个人页面
+  * [4.1. 个人页面](di-si-7ae0-yong-hu-xiang-guan/41-ge-ren-ye-mian.md)
   * 4.2. 编辑个人资料
   * 4.3. 显示个人资料
   * 4.4. 上传头像
